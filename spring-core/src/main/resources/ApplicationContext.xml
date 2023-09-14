@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                        http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context.xsd">
+                        
+ <context:annotation-config/>                       
+
+  <bean id ="person" class="com.training.spring.Person" scope="prototype">
+  		<property name="firstName" value="John"/>   <!-- Setter Injection -->
+  		<constructor-arg value = "23" type ="int"/> <!-- Constructor Injection --> 
+  		<!--  <property name="myCar" ref="car"/>-->
+  </bean>
+  
+  <bean id ="car" class="com.training.spring.Car" scope="prototype">
+  		<property name="make" value="Honda"/>   <!-- Setter Injection -->
+  		<property name="model" value="Elevate"/>
+  		<property name="year" value="2023"/>
+  		
+  </bean>
+
+</beans>

@@ -1,0 +1,5 @@
+package com.training.springmvc.config;
+
+public class AppConfig {
+
+}

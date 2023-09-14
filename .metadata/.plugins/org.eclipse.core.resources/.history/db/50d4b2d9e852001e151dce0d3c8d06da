@@ -1,0 +1,5 @@
+package com.training.springmvc.service;
+
+public class HomeService {
+
+}

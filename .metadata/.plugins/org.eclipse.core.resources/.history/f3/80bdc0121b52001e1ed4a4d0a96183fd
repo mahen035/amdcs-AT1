@@ -1,0 +1,24 @@
+package com.training.spring;
+
+import lombok.Data;
+
+@Data
+public class Person {
+	
+	private String firstName;
+	
+	private String lastName;
+	
+	private int age;
+	
+	private Car myCar;
+	
+	Person(int age){
+		this.age = age;
+	}
+
+	
+	
+	
+
+}

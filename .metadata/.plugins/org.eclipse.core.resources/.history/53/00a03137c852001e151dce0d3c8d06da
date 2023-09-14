@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Hello World from Web!!!</h1>
+<form>
+	UserName: <input type="text" placeholder="Enter user name"><br><br>
+	Password: <input type="password" placeholder="Enter password"><br><br>
+	<button>Login</button>
+</form>
+</body>
+</html>

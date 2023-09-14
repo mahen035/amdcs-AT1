@@ -1,0 +1,12 @@
+package com.training.spring;
+
+import org.springframework.context.ApplicationContext;
+
+public class SpringTester {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml";)
+
+	}
+
+}
