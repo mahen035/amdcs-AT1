@@ -1,0 +1,5 @@
+package com.training.studentservice.controller;
+
+public class StudentController {
+
+}
