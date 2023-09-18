@@ -1,0 +1,6 @@
+package com.training.courseservice.intercomm;
+
+@FeignClient(name="student", url="http://localhost:8082")
+public interface StudentClient {
+
+}

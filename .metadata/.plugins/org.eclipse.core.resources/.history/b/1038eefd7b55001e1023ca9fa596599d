@@ -1,0 +1,5 @@
+package com.training.courseservice.intercomm;
+
+public interface StudentClient {
+
+}

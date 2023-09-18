@@ -63,6 +63,19 @@ public class StudentController {
 		}
 	}
 	
+	@PostMapping("/stud")
+	public Student getStud(@RequestBody long id) {
+		
+		Optional<Student> stud = repository.findById(id);
+		
+		if(stud.isPresent()) {
+			return stud.get();
+		}
+		else {
+			return null;
+		}
+	}
+	
 	/**
 	 * 
 	 * @param id

@@ -1,0 +1,5 @@
+package com.training.courseservice.model;
+
+public class Course {
+
+}

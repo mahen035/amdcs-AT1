@@ -1,0 +1,5 @@
+package com.training.courseservice.controller;
+
+public class CourseController {
+
+}
