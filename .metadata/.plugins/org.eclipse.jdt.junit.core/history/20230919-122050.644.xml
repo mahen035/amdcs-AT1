@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StudentServiceTest" project="student-service" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.training.studentservice.StudentServiceTest" time="0.453" displayname="StudentServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.training.studentservice.StudentServiceTest]">
+    <testcase name="contextLoads" classname="com.training.studentservice.StudentServiceTest" time="0.221" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.training.studentservice.StudentServiceTest]/[method:contextLoads()]"/>
+    <testcase name="testStudent" classname="com.training.studentservice.StudentServiceTest" time="0.231" displayname="testStudent()" uniqueid="[engine:junit-jupiter]/[class:com.training.studentservice.StudentServiceTest]/[method:testStudent()]"/>
+  </testsuite>
+</testrun>
